@@ -9,5 +9,9 @@ else if (a<b)
  {
      diff = (b-a);
  }
+else if (a==b)
+ {
+     diff = 0;
+ }
 return diff;
 }
