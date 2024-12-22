@@ -9,5 +9,5 @@ else if (a<b)
  {
      diff = (b-a);
  }
-return.diff;
+return diff;
 }
