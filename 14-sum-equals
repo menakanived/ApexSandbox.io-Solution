@@ -1,0 +1,13 @@
+public Boolean sumEquals(Integer a, Integer b, Integer c) {
+integer sum;
+sum=(a+b);
+
+if (sum==c)
+  {
+   sumEquals=true;
+  }
+ else 
+  {
+   sumEquals=false;
+  }
+  
