@@ -1,13 +1,14 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
 boolean ascendingOrder;
 
-if (a=<b=<c)
+if ((c>=b) && (b>=a))
   {
       ascendingOrder = True;
   }
 else 
   {
-      ascendingOrder = Fasle;
+      ascendingOrder = False;
   }
+  
 return ascendingOrder;
 }
