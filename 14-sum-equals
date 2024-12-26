@@ -1,14 +1,14 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
 integer sum;
-sum=(a+b);
 
+sum = (a+b);
 if (sum==c)
   {
-   sumEquals (a,b,c) = true;
+    sumEquals = True;
   }
- else 
-  {
-   sumEquals (a,b,c) = false;
-  } 
-return sumEquals (a,b,c);
-
+else
+ {
+     sumEquals = False;
+ }
+return sumEquals;
+}
