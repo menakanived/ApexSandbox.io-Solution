@@ -10,5 +10,4 @@ else
  {
      sumEquals = False;
  }
-return sumEquals;
-}
+system.debug(sumEquals);
