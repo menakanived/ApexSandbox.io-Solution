@@ -1,0 +1,13 @@
+public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
+boolean ascendingOrder;
+
+if a<=b<=c;
+  {
+      ascendingOrder = True;
+  }
+else 
+  {
+      ascendingOrder = Fasle;
+  }
+return ascendingOrder;
+}
