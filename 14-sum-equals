@@ -10,5 +10,5 @@ if (sum==c)
   {
    sumEquals (a,b,c) = false;
   } 
-return sumEquals;
+return sumEquals (a,b,c);
 
