@@ -4,10 +4,10 @@ sum=(a+b);
 
 if (sum==c)
   {
-   sumEquals=true;
+   sumEquals (a,b,c) = true;
   }
  else 
   {
-   sumEquals=false;
-  }
-  
+   sumEquals (a,b,c) = false;
+  } 
+
