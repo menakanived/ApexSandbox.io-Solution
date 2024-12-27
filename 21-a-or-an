@@ -1,0 +1,16 @@
+public String aOrAn(String word) {
+string aOrAn;
+string vowel = 'a,e,i,o,u';
+
+
+If (word.startsWith (vowel))
+  {
+      aorAN = 'an (+word)';
+  }
+else
+  {
+     aorAN = 'a (+word)';
+
+  }
+  return aOrAn;
+}
