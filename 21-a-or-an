@@ -10,7 +10,7 @@ If (word.startsWith ('a') || word.startsWith ('e') || word.startsWith ('i') || w
   }
 else
   {
-    aorAN = 'a' word;
+    aorAN = 'a';
     result = (aOrAn +word);
     
   }
