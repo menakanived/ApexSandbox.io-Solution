@@ -1,15 +1,14 @@
 public String aOrAn(String word) {
 string aOrAn;
-string result;
 
 
 If (word.startsWith ('a') || word.startsWith ('e') || word.startsWith ('i') || word.startsWith ('o') || word.startsWith ('u') )
   {
-    aOrAn = 'an';
+    aOrAn = 'an' +word;
   }
 else
   {
-    aorAN = 'a';
+    aorAN = 'a' +word;
   }
-  return result = (aOrAn +word);
+  return aOrAn;
 }
