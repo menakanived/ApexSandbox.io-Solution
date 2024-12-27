@@ -5,11 +5,11 @@ string vowel = 'a,e,i,o,u';
 
 If (word.startsWith (vowel))
   {
-      aorAN = 'an (+word)';
+      aorAN = 'an' word;
   }
 else
   {
-     aorAN = 'a (+word)';
+     aorAN = 'a' word;
 
   }
   return aOrAn;
