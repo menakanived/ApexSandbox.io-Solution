@@ -1,10 +1,9 @@
 public String aOrAn(String word) {
 string aOrAn;
-string vowel = 'a,e,i,o,u';
 string result;
 
 
-If (word.startsWith (vowel))
+If (word.startsWith ('a') || word.startsWith ('e') || word.startsWith ('i') || word.startsWith ('o') || word.startsWith ('u') )
   {
     aOrAn = 'an';
     result = (aOrAn +word);
