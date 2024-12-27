@@ -6,13 +6,10 @@ string result;
 If (word.startsWith ('a') || word.startsWith ('e') || word.startsWith ('i') || word.startsWith ('o') || word.startsWith ('u') )
   {
     aOrAn = 'an';
-    result = (aOrAn ' ' +word);
   }
 else
   {
     aorAN = 'a';
-    result = (aOrAn ' ' +word);
-    
   }
-  return result;
+  return result = ('aOrAn' +word);
 }
