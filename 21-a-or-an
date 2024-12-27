@@ -11,5 +11,5 @@ else
   {
     aorAN = 'a';
   }
-  return result = ('aOrAn' +word);
+  return result = (aOrAn +word);
 }
