@@ -1,0 +1,15 @@
+public String evenOrOdd(Integer num) {
+string evenOrodd;
+
+
+if ((Math.mod (num,2)) != 0) 
+   {
+    evenOrodd = 'Even';
+   }
+else
+   {
+    evenOrodd = 'odd';
+   }
+
+return evenOrodd;
+}
