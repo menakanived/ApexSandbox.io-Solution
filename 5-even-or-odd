@@ -1,8 +1,11 @@
 public String evenOrOdd(Integer num) {
 string evenOrodd;
+integer remainder;
+
+remainder = Math.mod (num,2);
 
 
-if ((Math.mod (num,2)) = 0) 
+if (remainder = 0) 
    {
     evenOrodd = 'Even';
    }
