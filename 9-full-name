@@ -1,6 +1,6 @@
 public String formatName(String firstName, String lastName) {
 string formatName;
 
-formartName = firstName + lastName;
+formatName = firstName + lastName;
 system.debug(formatName);
 }
