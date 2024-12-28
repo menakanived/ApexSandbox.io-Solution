@@ -24,4 +24,6 @@ else
   {
       whichTwo = '';
   }
+
+return whichTwo;  
 }
