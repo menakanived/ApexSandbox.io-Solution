@@ -1,6 +1,6 @@
 public String evenOrOdd(Integer num) {
 string evenOrodd;
-integer remainder;
+integer remainder=1;
 
 remainder = Math.mod (num,2);
 
