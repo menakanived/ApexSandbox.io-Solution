@@ -1,0 +1,27 @@
+public String whichTwo(Integer a, Integer b, Integer c) {
+string whichTwo;
+integer sumofab;
+integer sumofbc;
+integer sumofca;
+
+sumofab = (a+b);
+sumofbc = (b+c);
+sumofca = (c+a);
+
+if (sumofab == c)
+  {
+    whichTwo = 'c';
+  }
+else if (sumofbc == a)
+  {
+    whichTwo = 'a';
+  }
+else if (sumofca == b)
+  {
+    whichTwo = 'b';
+  }
+else
+  {
+      whichTwo = '';
+  }
+}
