@@ -7,7 +7,7 @@ remainder = Math.mod (num,2);
 
 if (remainder == 0) 
    {
-    evenOrodd = 'Even';
+    evenOrodd = 'even';
    }
 else
    {
