@@ -5,7 +5,7 @@ integer remainder;
 remainder = Math.mod (num,2);
 
 
-if (remainder = 0) 
+if (remainder == 0) 
    {
     evenOrodd = 'Even';
    }
