@@ -7,11 +7,11 @@ if (firstName!=null && lastName!=null)
     }
 else if (firstName!=null && lastName==null)
     {
-     formatName = firstName;
+     formatName =firstName;
     }
 else if (firstName==null && lastName!=null)
     {
-     formatName = lastName;
+     formatName =lastName;
     }
 return formatName;
 
