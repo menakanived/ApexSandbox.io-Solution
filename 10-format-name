@@ -8,7 +8,7 @@ else if (firstName!=null && lastName==null)
     {
      return (firstName);
     }
-else (firstName==null && lastName!=null)
+else if (firstName==null && lastName!=null)
     {
      return (lastName);
     }
