@@ -1,6 +1,5 @@
 public String formatName(String firstName, String lastName) {
 string formatName;
 
-formatName = firstName +' ' lastName;
-return formatName;
+return ('formatName='+firstName + ' ' + lastName);
 }
