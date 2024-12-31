@@ -1,0 +1,16 @@
+public String formatName(String firstName, String lastName) {
+string formatName;
+
+if (firstName!='' && lastName!='')
+    {
+     return (lastName + ' ' + firstName);
+    }
+else if (firstName!='' && lastName=='')
+    {
+     return (firstName);
+    }
+else (firstName=='' && lastName!='')
+    {
+     return (lastName);
+    }
+}
