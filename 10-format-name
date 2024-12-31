@@ -3,7 +3,7 @@ string formatName;
 
 if (firstName!=null && lastName!=null)
     {
-     formatName = (lastName + ',' + ' ' + firstName);
+     formatName = (lastName + ', '+ firstName);
     }
 else if (firstName!=null && lastName==null)
     {
